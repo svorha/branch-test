@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+  <title>Trendy cookies</title>
+  <link rel="preload" href="fonts/SteppeBook.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/SteppeExtraBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="page__body">
+  <div class="site-container">
+    <div class="currency" id="change-currency" title="Изменить валюту">$</div>
+    <header class="header">
+      <div class="container header__container">
+        <a class="logo header__logo">
+          <img class="logo__img" src="img/logo.svg" alt="Логотип Trendy cookies">
+        </a>
+        <nav class="nav">
+          <ul class="nav__list list-reset">
+            <li class="nav__item"><a class="nav__link" data-link="products">Каталог</a></li>
+            <li class="nav__item"><a class="nav__link" data-link="love">О нас</a></li>
+            <li class="nav__item"><a class="nav__link" data-link="order">Оформление заказа</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section class="info">
+        <div class="container info__container">
+          <img class="line line--1" src="img/line-1.svg" aria-hidden="true" alt="Декоративная линия">
+          <div class="info__content">
+            <h1 class="info__title">Магия вкуса в каждой крошке</h1>
+            <p class="info__descr">Наши рецепты вдыхают жизнь в изысканность ингредиентов: ароматное натуральное масло, свежие сливки, чистый мёд и отборная мука. Мы тщательно отбираем каждый компонент премиального печенья, стремясь подарить вам истинное кулинарное наслаждение.</p>
+            <button class="btn info__btn" id="main-action-btn">Заказать</button>
+          </div>
+          <img class="info__img" src="img/cookie.png" srcset="img/cookie_2x.png 2x" aria-hidden="true" width="909" height="852" alt="Печенье">
+        </div>
+      </section>
+      <section class="products" id="products">
+        <div class="container products__container">
+          <img class="line line--2" src="img/line-2.svg" aria-hidden="true" alt="Декоративная линия">
+          <h2 class="title products__title">Выберите печенье</h2>
+          <ul class="products__list list-reset">
+            <li class="product">
+              <img class="product__img" src="img/product-1.png" srcset="img/product-1_2x.png 2x" loading="lazy" width="384" height="272" alt="Печенье">
+              <div class="product__content">
+                <h3 class="product__title">Лучшие друзья</h3>
+                <p class="product__descr">
+                  Печенье, с которого все началось! Наше фирменное печенье с шоколадной крошкой и грецкими орехами хрустящее снаружи с достаточно толстой и липкой серединкой.
+                </p>
+                <div class="product__extra">
+                  <div class="product__info">
+                    <span class="product__price" data-base-price="20">20 $</span>
+                    <span class="product__weight">2 шт./ 200 гр.</span>
+                  </div>
+                  <button class="btn product__btn">Заказать</button>
+                </div>
+              </div>
+            </li>
+            <li class="product">
+              <img class="product__img" src="img/product-2.png" srcset="img/product-2_2x.png 2x" loading="lazy" width="384" height="272" alt="Печенье">
+              <div class="product__content">
+                <h3 class="product__title">Шоколадный француз</h3>
+                <p class="product__descr">
+                  Это печенье, изготовленное из тёмного французского какао и полусладкой шоколадной стружки, наверняка удовлетворит даже самого заядлого любителя шоколада.
+                </p>
+                <div class="product__extra">
+                  <div class="product__info">
+                    <span class="product__price" data-base-price="24">24 $</span>
+                    <span class="product__weight">2 шт./ 200 гр.</span>
+                  </div>
+                  <button class="btn product__btn">Заказать</button>
+                </div>
+              </div>
+            </li>
+            <li class="product">
+              <img class="product__img" src="img/product-3.png" srcset="img/product-3_2x.png 2x" loading="lazy" width="384" height="272" alt="Печенье">
+              <div class="product__content">
+                <h3 class="product__title">Овсянка с изюмом, Сэр!</h3>
+                <p class="product__descr">
+                  Это сдобное маслянистое печенье весом шесть унций каждое, золотисто-коричневое снаружи, влажное внутри и наполненное пухлым сладким изюмом.
+                </p>
+                <div class="product__extra">
+                  <div class="product__info">
+                    <span class="product__price" data-base-price="18">18 $</span>
+                    <span class="product__weight">2 шт./ 200 гр.</span>
+                  </div>
+                  <button class="btn product__btn">Заказать</button>
+                </div>
+              </div>
+            </li>
+            <li class="product">
+              <img class="product__img" src="img/product-4.png" srcset="img/product-4_2x.png 2x" loading="lazy" width="384" height="272" alt="Печенье">
+              <div class="product__content">
+                <h3 class="product__title">Шоколадное наслаждение</h3>
+                <p class="product__descr">
+                  Идеально хрустящее снаружи и достаточно густое и липкое в центре, это печенье наполнено полусладкой и тёмной шоколадной стружкой, придающей богатую глубину вкуса.
+                </p>
+                <div class="product__extra">
+                  <div class="product__info">
+                    <span class="product__price" data-base-price="24">24 $</span>
+                    <span class="product__weight">2 шт./ 200 гр.</span>
+                  </div>
+                  <button class="btn product__btn">Заказать</button>
+                </div>
+              </div>
+            </li>
+            <li class="product">
+              <img class="product__img" src="img/product-5.png" srcset="img/product-5_2x.png 2x" loading="lazy" width="384" height="272" alt="Печенье">
+              <div class="product__content">
+                <h3 class="product__title">Арахисовый рай</h3>
+                <p class="product__descr">
+                  Сладкое, пикантное и идеально сбалансированное печенье удовлетворяет тягу любителей арахисового масла и шоколада.
+                </p>
+                <div class="product__extra">
+                  <div class="product__info">
+                    <span class="product__price" data-base-price="20">20 $</span>
+                    <span class="product__weight">2 шт./ 200 гр.</span>
+                  </div>
+                  <button class="btn product__btn">Заказать</button>
+                </div>
+              </div>
+            </li>
+            <li class="product">
+              <img class="product__img" src="img/product-6.png" srcset="img/product-6_2x.png 2x" loading="lazy" width="384" height="272" alt="Печенье">
+              <div class="product__content">
+                <h3 class="product__title">Шоколадный ореховый деликатес</h3>
+                <p class="product__descr">
+                  Наша фирменная рецептура печенья с шоколадными крошками и грецкими орехами гарантирует незабываемый вкусовой опыт. Каждое печенье хрустит снаружи, но раскрывает внутри нежную сердцевину.
+                </p>
+                <div class="product__extra">
+                  <div class="product__info">
+                    <span class="product__price" data-base-price="18">18 $</span>
+                    <span class="product__weight">2 шт./ 200 гр.</span>
+                  </div>
+                  <button class="btn product__btn">Заказать</button>
+                </div>
+              </div>
+            </li>
+            <li class="product">
+              <img class="product__img" src="img/product-7.png" srcset="img/product-7_2x.png 2x" loading="lazy" width="384" height="272" alt="Печенье">
+              <div class="product__content">
+                <h3 class="product__title">Ассорти фирменного печенья</h3>
+                <p class="product__descr">
+                  Зачем выбирать один, когда можно получить их все? Наш классический ассортимент печенья включает в себя по одному из четырёх оригинальных вкусов печенья.
+                </p>
+                <div class="product__extra">
+                  <div class="product__info">
+                    <span class="product__price" data-base-price="36">36 $</span>
+                    <span class="product__weight">4 шт./ 400 гр.</span>
+                  </div>
+                  <button class="btn product__btn">Заказать</button>
+                </div>
+              </div>
+            </li>
+            <li class="product">
+              <img class="product__img" src="img/product-8.png" srcset="img/product-8_2x.png 2x" loading="lazy" width="384" height="272" alt="Печенье">
+              <div class="product__content">
+                <h3 class="product__title">Лимонное печенье</h3>
+                <p class="product__descr">
+                  Весна уже не за горами, но нам не терпелось подарить вам немного солнечного света: наше первое лимонное печенье. Это лакомство жевательное, лимонное, не слишком сладкое и даже немного… освежающее?
+                </p>
+                <div class="product__extra">
+                  <div class="product__info">
+                    <span class="product__price" data-base-price="33">33 $</span>
+                    <span class="product__weight">4 шт./ 400 гр.</span>
+                  </div>
+                  <button class="btn product__btn">Заказать</button>
+                </div>
+              </div>
+            </li>
+            <li class="product">
+              <img class="product__img" src="img/product-9.png" srcset="img/product-9_2x.png 2x" loading="lazy" width="384" height="272" alt="Печенье">
+              <div class="product__content">
+                <h3 class="product__title">Любители шоколада</h3>
+                <p class="product__descr">
+                  Вам больше не нужно выбирать фаворитов. Мы сделали этот набор для всех людей, которые действительно любят шоколад…
+                </p>
+                <div class="product__extra">
+                  <div class="product__info">
+                    <span class="product__price" data-base-price="38">38 $</span>
+                    <span class="product__weight">4 шт./ 400 гр.</span>
+                  </div>
+                  <button class="btn product__btn">Заказать</button>
+                </div>
+              </div>
+            </li>
+            <li class="product">
+              <img class="product__img" src="img/product-10.png" srcset="img/product-10_2x.png 2x" loading="lazy" width="384" height="272" alt="Печенье">
+              <div class="product__content">
+                <h3 class="product__title">Карамель и кокос</h3>
+                <p class="product__descr">
+                  Побалуйте себя кокосовым, маслянистым, карамельным печеньем, которое обладает невиданным ранее вкусом и текстурой. Наслаждение круглый год.
+                </p>
+                <div class="product__extra">
+                  <div class="product__info">
+                    <span class="product__price" data-base-price="33">33 $</span>
+                    <span class="product__weight">4 шт./ 400 гр.</span>
+                  </div>
+                  <button class="btn product__btn">Заказать</button>
+                </div>
+              </div>
+            </li>
+            <li class="product">
+              <img class="product__img" src="img/product-11.png" srcset="img/product-11_2x.png 2x" loading="lazy" width="384" height="272" alt="Печенье">
+              <div class="product__content">
+                <h3 class="product__title">Веганское с шоколадной крошкой</h3>
+                <p class="product__descr">
+                  Наше веганское безглютеновое печенье содержит кусочки хрустящих грецких орехов и полусладкую веганскую шоколадную стружку.
+                </p>
+                <div class="product__extra">
+                  <div class="product__info">
+                    <span class="product__price" data-base-price="39">39 $</span>
+                    <span class="product__weight">4 шт./ 400 гр.</span>
+                  </div>
+                  <button class="btn product__btn">Заказать</button>
+                </div>
+              </div>
+            </li>
+            <li class="product">
+              <img class="product__img" src="img/product-12.png" srcset="img/product-12_2x.png 2x" loading="lazy" width="384" height="272" alt="Печенье">
+              <div class="product__content">
+                <h3 class="product__title">Крем-брюле ореховое печенье</h3>
+                <p class="product__descr">
+                  Используя уникальную смесь ингредиентов, мы создали печенье с кусочками крем-брюле и миндальными орехами, которое обещает неповторимые гастрономические ощущения. Каждый кусочек обладает хрустящей корочкой и тает во рту.
+                </p>
+                <div class="product__extra">
+                  <div class="product__info">
+                    <span class="product__price" data-base-price="35">35 $</span>
+                    <span class="product__weight">4 шт./ 400 гр.</span>
+                  </div>
+                  <button class="btn product__btn">Заказать</button>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="love" id="love">
+        <div class="container love__container">
+          <h2 class="title love__title">Пекарня с любовью</h2>
+          <div class="love__content">
+            <div class="love__text">
+              <h3 class="love__subtitle">Приготовлено с заботой, чтобы радовать вас каждый день</h3>
+              <p class="love__descr">
+                Мы с гордостью представляем наше печенье, которое мы выпекаем вручную каждый день с 1995 года, используя только лучшие ингредиенты. Погрузитесь в мир изысканных лакомств, приготовленных с применением передовых технологий, и насладитесь их неповторимым вкусом.
+              </p>
+            </div>
+            <img class="love__img" src="img/love.jpg" srcset="img/love_2x.jpg 2x" loading="lazy" width="590" height="453" alt="Печенье">
+          </div>
+        </div>
+      </section>
+      <section class="order" id="order">
+        <img class="line line--3" src="img/line-3.svg" aria-hidden="true" alt="Декоративная линия">
+        <div class="container order__container">
+          <h2 class="title order__title">Закажите печенье</h2>
+          <img class="order__decor" src="img/breadcrumbs.png" srcset="img/breadcrumbs_2x.png 2x" loading="lazy" aria-hidden="true" width="" height="" alt="Крошки">
+          <div class="order__content">
+            <form class="form" action="#">
+              <p class="form__descr">
+                Откройте для себя волшебство вкуса с нашим премиальным печеньем! Закажите прямо сейчас и окунитесь в мир сладких наслаждений.
+              </p>
+              <input class="form__input" id="product-input" type="text" placeholder="Выберите печенье" required>
+              <input class="form__input" id="name-input" type="text" placeholder="Ваше имя" required>
+              <input class="form__input" id="phone-input" type="tel" placeholder="Ваш телефон" required>
+              <button class="btn form__btn" id="order-action-btn" type="submit">Оформить заказ</button>
+            </form>
+            <img class="order__img" src="img/order.png" srcset="img/order_2x.png 2x" loading="lazy" width="468" height="559" alt="Печенье">
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <a class="logo footer__logo">
+        <img class="logo__img" src="img/logo.svg" alt="Логотип Trendy cookies">
+      </a>
+      <span class="footer__rights">«Все права защищены»</span>
+    </footer>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
